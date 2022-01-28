@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="81719" started-at="2020-05-29T09:13:02Z" finished-at="2020-05-29T09:14:24Z">
+    <groups>
+    </groups>
+    <test name="Test TGA" duration-ms="81719" started-at="2020-05-29T09:13:02Z" finished-at="2020-05-29T09:14:24Z">
+      <class name="com.siemens.TGA.automation.tests.AllTests">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:com.siemens.TGA.automation.tests.AllTests@795cd85e]" name="initializeDriver" is-config="true" duration-ms="7264" started-at="2020-05-29T14:42:55Z" finished-at="2020-05-29T14:43:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="testInitialize()[pri:0, instance:com.siemens.TGA.automation.tests.AllTests@795cd85e]" name="testInitialize" is-config="true" duration-ms="45478" started-at="2020-05-29T14:43:02Z" finished-at="2020-05-29T14:43:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInitialize -->
+        <test-method status="PASS" signature="extentLoggerInitializer(java.lang.reflect.Method)[pri:0, instance:com.siemens.TGA.automation.tests.AllTests@795cd85e]" name="extentLoggerInitializer" is-config="true" duration-ms="19" started-at="2020-05-29T14:43:48Z" finished-at="2020-05-29T14:43:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.siemens.TGA.automation.tests.AllTests.testLogin() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentLoggerInitializer -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.siemens.TGA.automation.tests.AllTests@795cd85e]" name="testLogin" duration-ms="33874" started-at="2020-05-29T14:43:48Z" finished-at="2020-05-29T14:44:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.siemens.TGA.automation.tests.AllTests@795cd85e]" name="tearDown" is-config="true" duration-ms="5" started-at="2020-05-29T14:44:22Z" finished-at="2020-05-29T14:44:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=AllTests.testLogin()[pri:0, instance:com.siemens.TGA.automation.tests.AllTests@795cd85e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.siemens.TGA.automation.tests.AllTests@795cd85e]" name="closeBrowser" is-config="true" duration-ms="820" started-at="2020-05-29T14:44:22Z" finished-at="2020-05-29T14:44:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="testClosure()[pri:0, instance:com.siemens.TGA.automation.tests.AllTests@795cd85e]" name="testClosure" is-config="true" duration-ms="1451" started-at="2020-05-29T14:44:23Z" finished-at="2020-05-29T14:44:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClosure -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.siemens.TGA.automation.tests.AllTests@795cd85e]" name="teardown" is-config="true" duration-ms="218" started-at="2020-05-29T14:44:24Z" finished-at="2020-05-29T14:44:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.siemens.TGA.automation.tests.AllTests -->
+    </test> <!-- Test TGA -->
+  </suite> <!-- Suite -->
+</testng-results>

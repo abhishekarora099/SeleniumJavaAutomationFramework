@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="1" preserve-order="true">
+  
+  <test name="Test TGA" >
+    <classes>
+      <class name="com.siemens.TGA.automation.tests.AllTests"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

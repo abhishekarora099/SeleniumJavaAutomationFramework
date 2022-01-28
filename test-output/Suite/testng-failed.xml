@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <test name="Test TGA(failed)" parallel="none">
+    <classes>
+      <class name="com.siemens.TGA.automation.tests.AllTests">
+        <methods>
+          <include name="testInitialize"/>
+          <include name="initializeDriver"/>
+          <include name="testLogin"/>
+        </methods>
+      </class> <!-- com.siemens.TGA.automation.tests.AllTests -->
+    </classes>
+  </test> <!-- Test TGA(failed) -->
+</suite> <!-- Failed suite [Suite] -->
